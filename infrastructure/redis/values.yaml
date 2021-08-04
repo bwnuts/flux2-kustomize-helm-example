@@ -5,4 +5,4 @@ cluster:
   enabled: false
 master:
   persistence:
-    enabled: false
+    enabled: true
