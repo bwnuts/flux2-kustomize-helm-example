@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   annotations:
-    fluxcd.io/ignore: "true"
+    flux.weave.works/ignore: "true"
 spec:
   selector:
     matchLabels:
