@@ -3,12 +3,11 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   annotations:
-    flux.weave.works/ignore: "true"
 spec:
   selector:
     matchLabels:
       app: nginx
-  replicas: 2 # tells deployment to run 2 pods matching the template
+  replicas: 1 # tells deployment to run 2 pods matching the template
   template:
     metadata:
       labels:
